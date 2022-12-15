@@ -1,11 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Document</title>
+    <title>My Game Page</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>My Top 3 Games</h1>
+        <h1 id="title">My Top 3 Games</h1>
+        <script>
+            let name =prompt("State your name!");
+            document.write("Hello, ", name);
+        </script>
+        <h2>
+        <script>
+            if (confirm("Do you love games?x")){
+                document.write("You came to the right place!");
+            } else {
+                document.write("Lets change your mind!");
+            }
+        </script>
+        </h2>
         <nav>
             <ul>
                 <li><a href="https://github.com/darranholmes74">Link to my Bio</a></li>
@@ -14,8 +28,8 @@
         </nav>
     </header>
 <main>
-    <section>
-        <img src="JakandDaxterImage.webp" alt="Jak and Daxter Image" />
+    <section class="upper">
+        <img id="jak-img" src="JakandDaxterImage.webp" alt="Jak and Daxter Image" />
         <p>image from https://www.playstation.com/en-us/games/jak-and-daxter-the-precursor-legacy/</p>
         <ul>
             <li>3d platformer</li>
@@ -24,7 +38,7 @@
         </ul>
     </section>
     <section>
-        <img src="LastofUsImage.webp" alt="Last of Us Image"/>
+        <img id="lastofus-img" src="LastofUsImage.webp" alt="Last of Us Image"/>
         <p>Image from https://www.playstation.com/en-us/games/the-last-of-us-part-i/</p>
         <ul>
             <li>The best narrative focused game of it's time.</li>
@@ -33,7 +47,7 @@
         </ul>
     </section>
     <section>
-        <img src="Moonlighterimage.jpeg" alt="Moonlighter Image"/>
+        <img id="moonlighter-img" src="Moonlighterimage.jpeg" alt="Moonlighter Image"/>
         <p>Image from https://store.steampowered.com/app/606150/Moonlighter/</p>
         <ul>
             <li>First pixel art game I played and enjoy.</li>
@@ -44,7 +58,10 @@
 
 </main>
 <footer>
-    <p>Darran Holmes</p>
+    <p>&copy; Darran Holmes</p>
+    <h3>
+        <script>document.write("Thanks for stoping by!")</script>
+    </h3>
 </footer>>
     
 </body>

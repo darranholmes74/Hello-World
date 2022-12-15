@@ -1,0 +1,59 @@
+/*selector {
+    property: value;
+}*/
+
+body {
+    background-color: #1C315E;
+}
+
+header {
+    background-color: #E6E2C3;
+}
+
+main {
+    color: #227c70
+}
+
+ul {
+    color: #E6E2C3;
+}
+
+#title {
+    color: #88a47c;
+}
+
+footer {
+    color: #88a47c;
+    backgrodund-color: #E6E2C3;
+    height: 50px;
+    max-height: 100%;
+    max-width: 100%;
+    padding-bottom: 35px;
+    padding-top: 5px;
+    padding-left: 50px;
+}
+
+
+
+
+
+/* Classes are for multiple elements*/
+.upper{
+width: 30%;
+display: inline-block
+}
+
+/* IDs are for specific unique elements*/
+#jak-img {
+    width: 285%;
+}
+
+#lastofus-img {
+    width: 75%;
+}
+
+#moonlighter-img {
+    width: 80%;
+    
+}
+
